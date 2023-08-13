@@ -6,11 +6,12 @@ body {
 }
 
 .portfolio-header {
-    margin: auto;
     width: 50%;
+    margin: auto;
 }
 
 .profile-header {
+    margin-left: 50px;
     padding-left: 15px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     background-color: rgba(0, 0, 0, 0.5);
@@ -19,6 +20,7 @@ body {
 }
 
 .skills-header {
+    margin-left: 50px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
@@ -87,4 +89,23 @@ a:visited {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  color: #FF5151;
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-5px)
+  }
 }
