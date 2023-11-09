@@ -62,7 +62,7 @@ body {
 }
 
 .clicker {
-    border: 2px solid #3FCA44;
+    border: 2px solid #FFA500;
 }
 
 .roguelite {
@@ -75,6 +75,10 @@ body {
 
 .grave-diver {
     border: 2px solid #d5925b;
+}
+
+.intruder {
+    border: 2px solid #728400;
 }
 
 .engine{
