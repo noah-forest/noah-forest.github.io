@@ -48,11 +48,12 @@ body {
 }
 
 .portfolio-small {
-    text-align: center;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    padding-left: 20px;
     box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
     color: white;
 }
@@ -73,8 +74,16 @@ body {
     border: 2px solid #FF9DEF;
 }
 
-.grave-diver {
+.grave-diver-jam {
     border: 2px solid #d5925b;
+}
+
+.grave-diver {
+    border: 2px solid #1d92ff;
+}
+
+.pizza-blitz {
+    border: 2px solid #ff4f4f;
 }
 
 .intruder {
@@ -84,6 +93,10 @@ body {
 .engine{
     text-align: left;
     color: #c9c9c9;
+}
+
+.desc-header {
+    color: #ffb34f;
 }
 
 .portfolio-pane {
